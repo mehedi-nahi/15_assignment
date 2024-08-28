@@ -15,7 +15,7 @@ const server=http.createServer(function(req,res){
 
     if(req.url=="/contact")
     {
-        res.end("This is the About Page");
+        res.end("This is the Contact Page");
     }
 })
 
